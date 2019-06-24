@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>搜索</title>
+    <script type="application/javascript" src="../js/vue_2.6.10.js"></script>
+    <script type="application/javascript" src="../js/element.js"></script>
+    <link href="../css/element.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <div id="search">
+        <el-steps :space="200" :active="1">
+            <el-step title="已完成"></el-step>
+            <el-step title="进行中"></el-step>
+            <el-step title="步骤 3"></el-step>
+        </el-steps>
+    </div>
+    加点内容
+    <script>
+        new Vue({
+            el: "#search",
+            data() {
+                return {
+
+                }
+            }
+        });
+    </script>
+</body>
+</html>
